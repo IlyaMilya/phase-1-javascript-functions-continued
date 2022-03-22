@@ -19,14 +19,14 @@ return `This Monday, I will ${activity}.`
 return `You are ${string2}a dedicated programmer${string2}!`;
 
    }}*/
-function wrapAdjective(flair = '*'){
+function wrapAdjective(flair = '||'){
    return function(adj= 'special' ) {
          return `You are ${flair}${adj}${flair}!` ;
    }
 }
 
 
-const wrappingAdj = wrapAdjective()()
+/*const wrappingAdj = wrapAdjective()()
 console.log(wrappingAdj)
 
 
@@ -35,4 +35,4 @@ console.log(wrapAdjective2)
 console.log(wrappingAdj) 
 
 
-//
+// */
